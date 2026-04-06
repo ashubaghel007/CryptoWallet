@@ -1,0 +1,227 @@
+    [
+      {
+        "rank": 1,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+        "price_usd": 106550,
+        "market_cap": "2.1T",
+        "category": "Store of Value"
+      },
+      {
+        "rank": 2,
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+        "price_usd": 7000,
+        "market_cap": "840B",
+        "category": "Smart Contracts"
+      },
+      {
+        "rank": 3,
+        "name": "Tether",
+        "symbol": "USDT",
+        "image": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+        "price_usd": 1,
+        "market_cap": "180B",
+        "category": "Stablecoin"
+      },
+      {
+        "rank": 4,
+        "name": "BNB",
+        "symbol": "BNB",
+        "image": "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+        "price_usd": 940,
+        "market_cap": "145B",
+        "category": "Exchange Token"
+      },
+      {
+        "rank": 5,
+        "name": "Solana",
+        "symbol": "SOL",
+        "image": "https://cryptologos.cc/logos/solana-sol-logo.png",
+        "price_usd": 405,
+        "market_cap": "180B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 6,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "image": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
+        "price_usd": 1,
+        "market_cap": "88B",
+        "category": "Stablecoin"
+      },
+      {
+        "rank": 7,
+        "name": "XRP",
+        "symbol": "XRP",
+        "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png",
+        "price_usd": 1.7,
+        "market_cap": "95B",
+        "category": "Payments"
+      },
+      {
+        "rank": 8,
+        "name": "Cardano",
+        "symbol": "ADA",
+        "image": "https://cryptologos.cc/logos/cardano-ada-logo.png",
+        "price_usd": 2.1,
+        "market_cap": "75B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 9,
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "image": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
+        "price_usd": 175,
+        "market_cap": "68B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 10,
+        "name": "Toncoin",
+        "symbol": "TON",
+        "image": "https://cryptologos.cc/logos/toncoin-ton-logo.png",
+        "price_usd": 17.8,
+        "market_cap": "62B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 11,
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "image": "https://cryptologos.cc/logos/chainlink-link-logo.png",
+        "price_usd": 92,
+        "market_cap": "55B",
+        "category": "Oracle"
+      },
+      {
+        "rank": 12,
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
+        "price_usd": 0.35,
+        "market_cap": "51B",
+        "category": "Meme"
+      },
+      {
+        "rank": 13,
+        "name": "Polkadot",
+        "symbol": "DOT",
+        "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
+        "price_usd": 41.5,
+        "market_cap": "48B",
+        "category": "Interoperability"
+      },
+      {
+        "rank": 14,
+        "name": "Polygon",
+        "symbol": "MATIC",
+        "image": "https://cryptologos.cc/logos/polygon-matic-logo.png",
+        "price_usd": 4.2,
+        "market_cap": "42B",
+        "category": "Layer 2"
+      },
+      {
+        "rank": 15,
+        "name": "Shiba Inu",
+        "symbol": "SHIB",
+        "image": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png",
+        "price_usd": 0.000047,
+        "market_cap": "28B",
+        "category": "Meme"
+      },
+      {
+        "rank": 16,
+        "name": "TRON",
+        "symbol": "TRX",
+        "image": "https://cryptologos.cc/logos/tron-trx-logo.png",
+        "price_usd": 0.30,
+        "market_cap": "28B",
+        "category": "Smart Contracts"
+      },
+      {
+        "rank": 17,
+        "name": "Litecoin",
+        "symbol": "LTC",
+        "image": "https://cryptologos.cc/logos/litecoin-ltc-logo.png",
+        "price_usd": 120,
+        "market_cap": "10B",
+        "category": "Payments"
+      },
+      {
+        "rank": 18,
+        "name": "NEAR Protocol",
+        "symbol": "NEAR",
+        "image": "https://cryptologos.cc/logos/near-protocol-near-logo.png",
+        "price_usd": 35,
+        "market_cap": "39B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 19,
+        "name": "Internet Computer",
+        "symbol": "ICP",
+        "image": "https://cryptologos.cc/logos/internet-computer-icp-logo.png",
+        "price_usd": 72,
+        "market_cap": "35B",
+        "category": "Web3"
+      },
+      {
+        "rank": 20,
+        "name": "Aptos",
+        "symbol": "APT",
+        "image": "https://cryptologos.cc/logos/aptos-apt-logo.png",
+        "price_usd": 68,
+        "market_cap": "30B",
+        "category": "Layer 1"
+      },
+      {
+        "rank": 21,
+        "name": "Cosmos",
+        "symbol": "ATOM",
+        "image": "https://cryptologos.cc/logos/cosmos-atom-logo.png",
+        "price_usd": 15,
+        "market_cap": "6B",
+        "category": "Interoperability"
+      },
+      {
+        "rank": 22,
+        "name": "Filecoin",
+        "symbol": "FIL",
+        "image": "https://cryptologos.cc/logos/filecoin-fil-logo.png",
+        "price_usd": 8,
+        "market_cap": "5B",
+        "category": "Storage"
+      },
+      {
+        "rank": 23,
+        "name": "Render",
+        "symbol": "RNDR",
+        "image": "https://cryptologos.cc/logos/render-token-rndr-logo.png",
+        "price_usd": 78,
+        "market_cap": "45B",
+        "category": "AI / GPU"
+      },
+      {
+        "rank": 24,
+        "name": "Immutable",
+        "symbol": "IMX",
+        "image": "https://cryptologos.cc/logos/immutable-x-imx-logo.png",
+        "price_usd": 14.5,
+        "market_cap": "33B",
+        "category": "Gaming"
+      },
+      {
+        "rank": 25,
+        "name": "Arbitrum",
+        "symbol": "ARB",
+        "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.png",
+        "price_usd": 2.1,
+        "market_cap": "20B",
+        "category": "Layer 2"
+      }
+    ]

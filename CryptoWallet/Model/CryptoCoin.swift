@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CryptoCoin: Codable, Identifiable {
+struct CryptoCoin: Codable, Identifiable, Hashable {
     let id = UUID() // local usage
     let rank: Int
     let name: String
@@ -25,5 +25,18 @@ struct CryptoCoin: Codable, Identifiable {
         case priceUSD = "price_usd"
         case marketCap = "market_cap"
         case category
+    }
+}
+
+extension CryptoCoin {
+    var infoDict: [String: String] {
+        var dict: [String: String] = [:]
+    
+        dict["Rank"] = String(rank)
+        dict["Symbol"] = symbol
+        dict["MarketCap"] = marketCap
+        dict["Category"] = category
+        
+        return dict
     }
 }

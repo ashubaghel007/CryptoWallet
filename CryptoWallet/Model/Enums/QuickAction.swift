@@ -3,6 +3,7 @@ enum QuickAction: String, Identifiable, CaseIterable {
     case sendMoney
     case swap
     case buy
+    case more
 
     var id: String {
         rawValue
@@ -14,6 +15,7 @@ enum QuickAction: String, Identifiable, CaseIterable {
         case .sendMoney: return "Send"
         case .swap: return "Swap"
         case .buy: return "Buy"
+        case .more: return "More"
         }
     }
 
@@ -23,6 +25,7 @@ enum QuickAction: String, Identifiable, CaseIterable {
         case .sendMoney: return "paperplane.fill"
         case .swap: return "arrow.left.arrow.right"
         case .buy: return "cart.fill"
+        case .more: return "ellipsis"
         }
     }
 }

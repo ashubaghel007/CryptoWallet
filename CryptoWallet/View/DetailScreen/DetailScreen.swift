@@ -21,7 +21,7 @@ struct DetailScreen: View {
                     .frame(width: .infinity, height: 200)
                     .padding(.horizontal, 15)
                 
-                QuickActionContainerView(quickActions: [.buy, .qrCode, .sendMoney, .swap]).padding(.vertical, 20)
+                QuickActionContainerView(quickActions: [.buy, .qrCode, .sendMoney, .more]).padding(.vertical, 20)
                 
                 AboutView(coin: coin)
                     .padding(.horizontal,15)

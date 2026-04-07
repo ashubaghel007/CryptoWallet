@@ -17,7 +17,7 @@ struct DetailScreen: View {
                 AmountView()
                 
                 // Chart
-                ChartView().padding()
+                ChartView(data: coin.chartData ?? []).padding()
                 
                 QuickActionContainerView(quickActions: [.buy, .qrCode, .sendMoney, .more]).padding(.vertical, 20)
                 
@@ -31,7 +31,7 @@ struct DetailScreen: View {
                 
             }
         }.preferredColorScheme(.dark)
-            .navigationTitle(coin.symbol)
+            .navigationTitle(coin.symbol ?? "")
                     .navigationBarTitleDisplayMode(.inline)
     }
 }
@@ -44,7 +44,8 @@ struct DetailScreen: View {
         image: "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
         priceUSD: 106550,
         marketCap: "2.1T",
-        category: "Store of Value"
+        category: "Store of Value",
+        chartData: [PriceData]()
     ))
 }
 
@@ -99,28 +100,16 @@ struct InfoView: View {
     }
 }
 
-struct PriceData: Identifiable {
-    let id = UUID()
-    let day: String
-    let price: Double
-}
+
 
 struct ChartView: View {
-    let data: [PriceData] = [
-        .init(day: "Mon", price: 50),
-        .init(day: "Tue", price: 100),
-        .init(day: "Wed", price: 300),
-        .init(day: "Thu", price: 120),
-        .init(day: "Fri", price: 500),
-        .init(day: "Sat", price: 400),
-        .init(day: "Sun", price: 600)
-    ]
+    let data: [PriceData]
     
     var body: some View {
         Chart(data) { item in
             LineMark(
-                x: .value("Day", item.day),
-                y: .value("Price", item.price)
+                x: .value("Day", item.day ?? ""),
+                y: .value("Price", item.price ?? 0.0)
             )
         }
         .frame(height: 200)

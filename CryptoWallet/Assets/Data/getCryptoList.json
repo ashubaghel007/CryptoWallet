@@ -1,227 +1,469 @@
-    [
-      {
-        "rank": 1,
-        "name": "Bitcoin",
-        "symbol": "BTC",
-        "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
-        "price_usd": 106550,
-        "market_cap": "2.1T",
-        "category": "Store of Value"
-      },
-      {
-        "rank": 2,
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
-        "price_usd": 7000,
-        "market_cap": "840B",
-        "category": "Smart Contracts"
-      },
-      {
-        "rank": 3,
-        "name": "Tether",
-        "symbol": "USDT",
-        "image": "https://cryptologos.cc/logos/tether-usdt-logo.png",
-        "price_usd": 1,
-        "market_cap": "180B",
-        "category": "Stablecoin"
-      },
-      {
-        "rank": 4,
-        "name": "BNB",
-        "symbol": "BNB",
-        "image": "https://cryptologos.cc/logos/bnb-bnb-logo.png",
-        "price_usd": 940,
-        "market_cap": "145B",
-        "category": "Exchange Token"
-      },
-      {
-        "rank": 5,
-        "name": "Solana",
-        "symbol": "SOL",
-        "image": "https://cryptologos.cc/logos/solana-sol-logo.png",
-        "price_usd": 405,
-        "market_cap": "180B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 6,
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "image": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
-        "price_usd": 1,
-        "market_cap": "88B",
-        "category": "Stablecoin"
-      },
-      {
-        "rank": 7,
-        "name": "XRP",
-        "symbol": "XRP",
-        "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png",
-        "price_usd": 1.7,
-        "market_cap": "95B",
-        "category": "Payments"
-      },
-      {
-        "rank": 8,
-        "name": "Cardano",
-        "symbol": "ADA",
-        "image": "https://cryptologos.cc/logos/cardano-ada-logo.png",
-        "price_usd": 2.1,
-        "market_cap": "75B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 9,
-        "name": "Avalanche",
-        "symbol": "AVAX",
-        "image": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
-        "price_usd": 175,
-        "market_cap": "68B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 10,
-        "name": "Toncoin",
-        "symbol": "TON",
-        "image": "https://cryptologos.cc/logos/toncoin-ton-logo.png",
-        "price_usd": 17.8,
-        "market_cap": "62B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 11,
-        "name": "Chainlink",
-        "symbol": "LINK",
-        "image": "https://cryptologos.cc/logos/chainlink-link-logo.png",
-        "price_usd": 92,
-        "market_cap": "55B",
-        "category": "Oracle"
-      },
-      {
-        "rank": 12,
-        "name": "Dogecoin",
-        "symbol": "DOGE",
-        "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
-        "price_usd": 0.35,
-        "market_cap": "51B",
-        "category": "Meme"
-      },
-      {
-        "rank": 13,
-        "name": "Polkadot",
-        "symbol": "DOT",
-        "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
-        "price_usd": 41.5,
-        "market_cap": "48B",
-        "category": "Interoperability"
-      },
-      {
-        "rank": 14,
-        "name": "Polygon",
-        "symbol": "MATIC",
-        "image": "https://cryptologos.cc/logos/polygon-matic-logo.png",
-        "price_usd": 4.2,
-        "market_cap": "42B",
-        "category": "Layer 2"
-      },
-      {
-        "rank": 15,
-        "name": "Shiba Inu",
-        "symbol": "SHIB",
-        "image": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png",
-        "price_usd": 0.000047,
-        "market_cap": "28B",
-        "category": "Meme"
-      },
-      {
-        "rank": 16,
-        "name": "TRON",
-        "symbol": "TRX",
-        "image": "https://cryptologos.cc/logos/tron-trx-logo.png",
-        "price_usd": 0.30,
-        "market_cap": "28B",
-        "category": "Smart Contracts"
-      },
-      {
-        "rank": 17,
-        "name": "Litecoin",
-        "symbol": "LTC",
-        "image": "https://cryptologos.cc/logos/litecoin-ltc-logo.png",
-        "price_usd": 120,
-        "market_cap": "10B",
-        "category": "Payments"
-      },
-      {
-        "rank": 18,
-        "name": "NEAR Protocol",
-        "symbol": "NEAR",
-        "image": "https://cryptologos.cc/logos/near-protocol-near-logo.png",
-        "price_usd": 35,
-        "market_cap": "39B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 19,
-        "name": "Internet Computer",
-        "symbol": "ICP",
-        "image": "https://cryptologos.cc/logos/internet-computer-icp-logo.png",
-        "price_usd": 72,
-        "market_cap": "35B",
-        "category": "Web3"
-      },
-      {
-        "rank": 20,
-        "name": "Aptos",
-        "symbol": "APT",
-        "image": "https://cryptologos.cc/logos/aptos-apt-logo.png",
-        "price_usd": 68,
-        "market_cap": "30B",
-        "category": "Layer 1"
-      },
-      {
-        "rank": 21,
-        "name": "Cosmos",
-        "symbol": "ATOM",
-        "image": "https://cryptologos.cc/logos/cosmos-atom-logo.png",
-        "price_usd": 15,
-        "market_cap": "6B",
-        "category": "Interoperability"
-      },
-      {
-        "rank": 22,
-        "name": "Filecoin",
-        "symbol": "FIL",
-        "image": "https://cryptologos.cc/logos/filecoin-fil-logo.png",
-        "price_usd": 8,
-        "market_cap": "5B",
-        "category": "Storage"
-      },
-      {
-        "rank": 23,
-        "name": "Render",
-        "symbol": "RNDR",
-        "image": "https://cryptologos.cc/logos/render-token-rndr-logo.png",
-        "price_usd": 78,
-        "market_cap": "45B",
-        "category": "AI / GPU"
-      },
-      {
-        "rank": 24,
-        "name": "Immutable",
-        "symbol": "IMX",
-        "image": "https://cryptologos.cc/logos/immutable-x-imx-logo.png",
-        "price_usd": 14.5,
-        "market_cap": "33B",
-        "category": "Gaming"
-      },
-      {
-        "rank": 25,
-        "name": "Arbitrum",
-        "symbol": "ARB",
-        "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.png",
-        "price_usd": 2.1,
-        "market_cap": "20B",
-        "category": "Layer 2"
-      }
+[
+  {
+    "rank": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "image": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+    "price_usd": 106550,
+    "market_cap": "2.1T",
+    "category": "Store of Value",
+    "chart_data": [
+      { "day": "Mon", "price": 104200 },
+      { "day": "Tue", "price": 105100 },
+      { "day": "Wed", "price": 106000 },
+      { "day": "Thu", "price": 105500 },
+      { "day": "Fri", "price": 106200 },
+      { "day": "Sat", "price": 106800 },
+      { "day": "Sun", "price": 106550 }
     ]
+  },
+  {
+    "rank": 2,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "image": "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+    "price_usd": 7000,
+    "market_cap": "840B",
+    "category": "Smart Contracts",
+    "chart_data": [
+      { "day": "Mon", "price": 6800 },
+      { "day": "Tue", "price": 6900 },
+      { "day": "Wed", "price": 7050 },
+      { "day": "Thu", "price": 6980 },
+      { "day": "Fri", "price": 7100 },
+      { "day": "Sat", "price": 7200 },
+      { "day": "Sun", "price": 7000 }
+    ]
+  },
+  {
+    "rank": 3,
+    "name": "Tether",
+    "symbol": "USDT",
+    "image": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+    "price_usd": 1,
+    "market_cap": "180B",
+    "category": "Stablecoin",
+    "chart_data": [
+      { "day": "Mon", "price": 1.0 },
+      { "day": "Tue", "price": 1.0 },
+      { "day": "Wed", "price": 0.999 },
+      { "day": "Thu", "price": 1.001 },
+      { "day": "Fri", "price": 1.0 },
+      { "day": "Sat", "price": 1.0 },
+      { "day": "Sun", "price": 1.0 }
+    ]
+  },
+  {
+    "rank": 4,
+    "name": "BNB",
+    "symbol": "BNB",
+    "image": "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+    "price_usd": 940,
+    "market_cap": "145B",
+    "category": "Exchange Token",
+    "chart_data": [
+      { "day": "Mon", "price": 910 },
+      { "day": "Tue", "price": 920 },
+      { "day": "Wed", "price": 935 },
+      { "day": "Thu", "price": 930 },
+      { "day": "Fri", "price": 950 },
+      { "day": "Sat", "price": 960 },
+      { "day": "Sun", "price": 940 }
+    ]
+  },
+  {
+    "rank": 5,
+    "name": "Solana",
+    "symbol": "SOL",
+    "image": "https://cryptologos.cc/logos/solana-sol-logo.png",
+    "price_usd": 405,
+    "market_cap": "180B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 380 },
+      { "day": "Tue", "price": 395 },
+      { "day": "Wed", "price": 410 },
+      { "day": "Thu", "price": 400 },
+      { "day": "Fri", "price": 415 },
+      { "day": "Sat", "price": 420 },
+      { "day": "Sun", "price": 405 }
+    ]
+  },
+  {
+    "rank": 6,
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "image": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
+    "price_usd": 1,
+    "market_cap": "88B",
+    "category": "Stablecoin",
+    "chart_data": [
+      { "day": "Mon", "price": 1.0 },
+      { "day": "Tue", "price": 1.0 },
+      { "day": "Wed", "price": 1.0 },
+      { "day": "Thu", "price": 1.0 },
+      { "day": "Fri", "price": 1.0 },
+      { "day": "Sat", "price": 1.0 },
+      { "day": "Sun", "price": 1.0 }
+    ]
+  },
+  {
+    "rank": 7,
+    "name": "XRP",
+    "symbol": "XRP",
+    "image": "https://cryptologos.cc/logos/xrp-xrp-logo.png",
+    "price_usd": 1.7,
+    "market_cap": "95B",
+    "category": "Payments",
+    "chart_data": [
+      { "day": "Mon", "price": 1.5 },
+      { "day": "Tue", "price": 1.6 },
+      { "day": "Wed", "price": 1.8 },
+      { "day": "Thu", "price": 1.75 },
+      { "day": "Fri", "price": 1.7 },
+      { "day": "Sat", "price": 1.72 },
+      { "day": "Sun", "price": 1.7 }
+    ]
+  },
+  {
+    "rank": 8,
+    "name": "Cardano",
+    "symbol": "ADA",
+    "image": "https://cryptologos.cc/logos/cardano-ada-logo.png",
+    "price_usd": 2.1,
+    "market_cap": "75B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 2.0 },
+      { "day": "Tue", "price": 2.05 },
+      { "day": "Wed", "price": 2.2 },
+      { "day": "Thu", "price": 2.15 },
+      { "day": "Fri", "price": 2.1 },
+      { "day": "Sat", "price": 2.12 },
+      { "day": "Sun", "price": 2.1 }
+    ]
+  },
+
+  {
+    "rank": 9,
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "image": "https://cryptologos.cc/logos/avalanche-avax-logo.png",
+    "price_usd": 175,
+    "market_cap": "68B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 160 },
+      { "day": "Tue", "price": 170 },
+      { "day": "Wed", "price": 180 },
+      { "day": "Thu", "price": 175 },
+      { "day": "Fri", "price": 178 },
+      { "day": "Sat", "price": 182 },
+      { "day": "Sun", "price": 175 }
+    ]
+  },
+
+  {
+    "rank": 10,
+    "name": "Toncoin",
+    "symbol": "TON",
+    "image": "https://cryptologos.cc/logos/toncoin-ton-logo.png",
+    "price_usd": 17.8,
+    "market_cap": "62B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 16.5 },
+      { "day": "Tue", "price": 17.2 },
+      { "day": "Wed", "price": 18.0 },
+      { "day": "Thu", "price": 17.6 },
+      { "day": "Fri", "price": 18.2 },
+      { "day": "Sat", "price": 18.5 },
+      { "day": "Sun", "price": 17.8 }
+    ]
+  },
+
+  {
+    "rank": 11,
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "image": "https://cryptologos.cc/logos/chainlink-link-logo.png",
+    "price_usd": 92,
+    "market_cap": "55B",
+    "category": "Oracle",
+    "chart_data": [
+      { "day": "Mon", "price": 85 },
+      { "day": "Tue", "price": 88 },
+      { "day": "Wed", "price": 95 },
+      { "day": "Thu", "price": 90 },
+      { "day": "Fri", "price": 94 },
+      { "day": "Sat", "price": 96 },
+      { "day": "Sun", "price": 92 }
+    ]
+  },
+
+  {
+    "rank": 12,
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "image": "https://cryptologos.cc/logos/dogecoin-doge-logo.png",
+    "price_usd": 0.35,
+    "market_cap": "51B",
+    "category": "Meme",
+    "chart_data": [
+      { "day": "Mon", "price": 0.30 },
+      { "day": "Tue", "price": 0.32 },
+      { "day": "Wed", "price": 0.36 },
+      { "day": "Thu", "price": 0.34 },
+      { "day": "Fri", "price": 0.35 },
+      { "day": "Sat", "price": 0.37 },
+      { "day": "Sun", "price": 0.35 }
+    ]
+  },
+
+  {
+    "rank": 13,
+    "name": "Polkadot",
+    "symbol": "DOT",
+    "image": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png",
+    "price_usd": 41.5,
+    "market_cap": "48B",
+    "category": "Interoperability",
+    "chart_data": [
+      { "day": "Mon", "price": 38 },
+      { "day": "Tue", "price": 40 },
+      { "day": "Wed", "price": 42 },
+      { "day": "Thu", "price": 41 },
+      { "day": "Fri", "price": 43 },
+      { "day": "Sat", "price": 44 },
+      { "day": "Sun", "price": 41.5 }
+    ]
+  },
+
+  {
+    "rank": 14,
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "image": "https://cryptologos.cc/logos/polygon-matic-logo.png",
+    "price_usd": 4.2,
+    "market_cap": "42B",
+    "category": "Layer 2",
+    "chart_data": [
+      { "day": "Mon", "price": 3.8 },
+      { "day": "Tue", "price": 4.0 },
+      { "day": "Wed", "price": 4.3 },
+      { "day": "Thu", "price": 4.1 },
+      { "day": "Fri", "price": 4.25 },
+      { "day": "Sat", "price": 4.35 },
+      { "day": "Sun", "price": 4.2 }
+    ]
+  },
+
+  {
+    "rank": 15,
+    "name": "Shiba Inu",
+    "symbol": "SHIB",
+    "image": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png",
+    "price_usd": 0.000047,
+    "market_cap": "28B",
+    "category": "Meme",
+    "chart_data": [
+      { "day": "Mon", "price": 0.000043 },
+      { "day": "Tue", "price": 0.000045 },
+      { "day": "Wed", "price": 0.000048 },
+      { "day": "Thu", "price": 0.000046 },
+      { "day": "Fri", "price": 0.000047 },
+      { "day": "Sat", "price": 0.000049 },
+      { "day": "Sun", "price": 0.000047 }
+    ]
+  },
+
+  {
+    "rank": 16,
+    "name": "TRON",
+    "symbol": "TRX",
+    "image": "https://cryptologos.cc/logos/tron-trx-logo.png",
+    "price_usd": 0.30,
+    "market_cap": "28B",
+    "category": "Smart Contracts",
+    "chart_data": [
+      { "day": "Mon", "price": 0.28 },
+      { "day": "Tue", "price": 0.29 },
+      { "day": "Wed", "price": 0.31 },
+      { "day": "Thu", "price": 0.30 },
+      { "day": "Fri", "price": 0.32 },
+      { "day": "Sat", "price": 0.33 },
+      { "day": "Sun", "price": 0.30 }
+    ]
+  },
+
+  {
+    "rank": 17,
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "image": "https://cryptologos.cc/logos/litecoin-ltc-logo.png",
+    "price_usd": 120,
+    "market_cap": "10B",
+    "category": "Payments",
+    "chart_data": [
+      { "day": "Mon", "price": 110 },
+      { "day": "Tue", "price": 115 },
+      { "day": "Wed", "price": 122 },
+      { "day": "Thu", "price": 118 },
+      { "day": "Fri", "price": 121 },
+      { "day": "Sat", "price": 125 },
+      { "day": "Sun", "price": 120 }
+    ]
+  },
+
+  {
+    "rank": 18,
+    "name": "NEAR Protocol",
+    "symbol": "NEAR",
+    "image": "https://cryptologos.cc/logos/near-protocol-near-logo.png",
+    "price_usd": 35,
+    "market_cap": "39B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 32 },
+      { "day": "Tue", "price": 34 },
+      { "day": "Wed", "price": 36 },
+      { "day": "Thu", "price": 35 },
+      { "day": "Fri", "price": 37 },
+      { "day": "Sat", "price": 38 },
+      { "day": "Sun", "price": 35 }
+    ]
+  },
+
+  {
+    "rank": 19,
+    "name": "Internet Computer",
+    "symbol": "ICP",
+    "image": "https://cryptologos.cc/logos/internet-computer-icp-logo.png",
+    "price_usd": 72,
+    "market_cap": "35B",
+    "category": "Web3",
+    "chart_data": [
+      { "day": "Mon", "price": 65 },
+      { "day": "Tue", "price": 70 },
+      { "day": "Wed", "price": 75 },
+      { "day": "Thu", "price": 72 },
+      { "day": "Fri", "price": 74 },
+      { "day": "Sat", "price": 76 },
+      { "day": "Sun", "price": 72 }
+    ]
+  },
+
+  {
+    "rank": 20,
+    "name": "Aptos",
+    "symbol": "APT",
+    "image": "https://cryptologos.cc/logos/aptos-apt-logo.png",
+    "price_usd": 68,
+    "market_cap": "30B",
+    "category": "Layer 1",
+    "chart_data": [
+      { "day": "Mon", "price": 60 },
+      { "day": "Tue", "price": 65 },
+      { "day": "Wed", "price": 70 },
+      { "day": "Thu", "price": 68 },
+      { "day": "Fri", "price": 72 },
+      { "day": "Sat", "price": 74 },
+      { "day": "Sun", "price": 68 }
+    ]
+  },
+
+  {
+    "rank": 21,
+    "name": "Cosmos",
+    "symbol": "ATOM",
+    "image": "https://cryptologos.cc/logos/cosmos-atom-logo.png",
+    "price_usd": 15,
+    "market_cap": "6B",
+    "category": "Interoperability",
+    "chart_data": [
+      { "day": "Mon", "price": 13 },
+      { "day": "Tue", "price": 14 },
+      { "day": "Wed", "price": 16 },
+      { "day": "Thu", "price": 15 },
+      { "day": "Fri", "price": 15.5 },
+      { "day": "Sat", "price": 16.2 },
+      { "day": "Sun", "price": 15 }
+    ]
+  },
+
+  {
+    "rank": 22,
+    "name": "Filecoin",
+    "symbol": "FIL",
+    "image": "https://cryptologos.cc/logos/filecoin-fil-logo.png",
+    "price_usd": 8,
+    "market_cap": "5B",
+    "category": "Storage",
+    "chart_data": [
+      { "day": "Mon", "price": 7 },
+      { "day": "Tue", "price": 7.5 },
+      { "day": "Wed", "price": 8.2 },
+      { "day": "Thu", "price": 8 },
+      { "day": "Fri", "price": 8.3 },
+      { "day": "Sat", "price": 8.5 },
+      { "day": "Sun", "price": 8 }
+    ]
+  },
+
+  {
+    "rank": 23,
+    "name": "Render",
+    "symbol": "RNDR",
+    "image": "https://cryptologos.cc/logos/render-token-rndr-logo.png",
+    "price_usd": 78,
+    "market_cap": "45B",
+    "category": "AI / GPU",
+    "chart_data": [
+      { "day": "Mon", "price": 70 },
+      { "day": "Tue", "price": 75 },
+      { "day": "Wed", "price": 80 },
+      { "day": "Thu", "price": 78 },
+      { "day": "Fri", "price": 82 },
+      { "day": "Sat", "price": 85 },
+      { "day": "Sun", "price": 78 }
+    ]
+  },
+
+  {
+    "rank": 24,
+    "name": "Immutable",
+    "symbol": "IMX",
+    "image": "https://cryptologos.cc/logos/immutable-x-imx-logo.png",
+    "price_usd": 14.5,
+    "market_cap": "33B",
+    "category": "Gaming",
+    "chart_data": [
+      { "day": "Mon", "price": 13 },
+      { "day": "Tue", "price": 14 },
+      { "day": "Wed", "price": 15 },
+      { "day": "Thu", "price": 14.5 },
+      { "day": "Fri", "price": 15.2 },
+      { "day": "Sat", "price": 15.8 },
+      { "day": "Sun", "price": 14.5 }
+    ]
+  },
+
+  {
+    "rank": 25,
+    "name": "Arbitrum",
+    "symbol": "ARB",
+    "image": "https://cryptologos.cc/logos/arbitrum-arb-logo.png",
+    "price_usd": 2.1,
+    "market_cap": "20B",
+    "category": "Layer 2",
+    "chart_data": [
+      { "day": "Mon", "price": 1.9 },
+      { "day": "Tue", "price": 2.0 },
+      { "day": "Wed", "price": 2.2 },
+      { "day": "Thu", "price": 2.1 },
+      { "day": "Fri", "price": 2.25 },
+      { "day": "Sat", "price": 2.3 },
+      { "day": "Sun", "price": 2.1 }
+    ]
+  }
+]

@@ -69,7 +69,9 @@ struct CryptoCoinCell: View {
 //        image: "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
 //        priceUSD: 106550,
 //        marketCap: "2.1T",
-//        category: "Store of Value"
+//        category: "Store of Value",
+ //        chartData: [PriceData]()
+
 //    ),
 //    CryptoCoin(
 //        rank: 2,
@@ -78,6 +80,7 @@ struct CryptoCoinCell: View {
 //        image: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
 //        priceUSD: 3500,
 //        marketCap: "420B",
-//        category: "Smart Contract Platform"
+//        category: "Smart Contract Platform",
+  //        chartData: [PriceData]()
 //    )])
 //}

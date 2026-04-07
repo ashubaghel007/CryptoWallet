@@ -19,11 +19,10 @@ protocol HomeViewModelAdapter  {
 @Observable
 class HomeViewModel: HomeViewModelAdapter {
     var cryptoList: [CryptoCoin]?
-    var quickActions: [QuickAction]? { return QuickAction.allCases }
+    var quickActions: [QuickAction]? { return [.buy, .qrCode, .sendMoney, .swap] }
     var isloading: Bool = false
 
     func fetchCryptoList() async {
         cryptoList = CryptoWalletHelper.getCryptoCoinList()
-        print(cryptoList)
     }
 }

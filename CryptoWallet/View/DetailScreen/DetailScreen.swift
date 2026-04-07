@@ -5,6 +5,7 @@
 //  Created by Ashish Baghel on 07/04/2026.
 //
 import SwiftUI
+import Charts
 
 struct DetailScreen: View {
     var coin: CryptoCoin
@@ -16,10 +17,7 @@ struct DetailScreen: View {
                 AmountView()
                 
                 // Chart
-                Rectangle()
-                    .fill(Color.yellow)
-                    .frame(width: .infinity, height: 200)
-                    .padding(.horizontal, 15)
+                ChartView().padding()
                 
                 QuickActionContainerView(quickActions: [.buy, .qrCode, .sendMoney, .more]).padding(.vertical, 20)
                 
@@ -98,5 +96,34 @@ struct InfoView: View {
             .cornerRadius(15)
         }
         .frame(maxWidth: .infinity)
+    }
+}
+
+struct PriceData: Identifiable {
+    let id = UUID()
+    let day: String
+    let price: Double
+}
+
+struct ChartView: View {
+    let data: [PriceData] = [
+        .init(day: "Mon", price: 50),
+        .init(day: "Tue", price: 100),
+        .init(day: "Wed", price: 300),
+        .init(day: "Thu", price: 120),
+        .init(day: "Fri", price: 500),
+        .init(day: "Sat", price: 400),
+        .init(day: "Sun", price: 600)
+    ]
+    
+    var body: some View {
+        Chart(data) { item in
+            LineMark(
+                x: .value("Day", item.day),
+                y: .value("Price", item.price)
+            )
+        }
+        .frame(height: 200)
+        .padding()
     }
 }

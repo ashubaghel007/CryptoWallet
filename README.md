@@ -115,7 +115,12 @@ git clone <your-repo-url>
 
 Screenshots:- 
 
-https://github.com/user-attachments/assets/20112db6-5a3d-4c20-ab1d-79d79b86e248
+
+
+https://github.com/user-attachments/assets/d47c99d5-a1b1-4805-890c-a4a8e5728ca3
+
+
+
 <img width="350" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 01 09 54" src="https://github.com/user-attachments/assets/39f44624-dce0-4024-8759-59916c67e595" />
 <img width="350" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 01 09 52" src="https://github.com/user-attachments/assets/586a5ae2-22b7-42e7-b38d-15f5b3a817fd" />
 <img width="350" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 01 09 41" src="https://github.com/user-attachments/assets/d8696805-5aa9-4191-939c-6c6923b32240" />

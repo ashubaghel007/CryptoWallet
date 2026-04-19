@@ -119,6 +119,10 @@ Screenshots:-
 
 https://github.com/user-attachments/assets/d47c99d5-a1b1-4805-890c-a4a8e5728ca3
 
+https://github.com/user-attachments/assets/b0c75f0f-2099-41f8-a33d-53bc4bb10a6a
+
+
+
 
 
 <img width="350" height="1000" alt="Simulator Screenshot - iPhone 17 Pro - 2026-04-10 at 01 09 54" src="https://github.com/user-attachments/assets/39f44624-dce0-4024-8759-59916c67e595" />
